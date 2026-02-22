@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-ivory text-navy antialiased;
+}
+
+.section-shell {
+  @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.grid-veil {
+  background-image: radial-gradient(circle at 1px 1px, rgba(122, 30, 45, 0.12) 1px, transparent 0);
+  background-size: 26px 26px;
+}
